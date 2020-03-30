@@ -1,0 +1,111 @@
+*{ margin: 0; padding: 0; box-sizing: border-box; }
+
+/*-----------------for-signin-------*/
+.divider-text {
+	position: relative;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.divider-text span {
+	padding: 7px;
+	font-size: 12px;
+	position: relative;
+	z-index: 2;
+}
+
+.divider-text:after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+	top: 92%;
+	left: 0;
+	z-index: 1;
+}
+
+.btn-facebook {
+	background-color: #405D9D!important;
+	color: #fff!important;
+}
+
+.btn-gmail {
+	background-color: #ea4335!important;
+	color: #fff!important;
+}
+/*--------------for-signin/signup-end--------*/
+
+
+
+/* Style the header */
+.header {
+  background-color: #00BFFF;
+  padding: 20px 30px 5px 20px;
+}
+.headertext{
+	color: #ffffff;
+    text-align: -webkit-center;
+    text-shadow: 4px 4px 9px #1e1b1b;
+}
+.header img{
+	width: 50%;
+	height: 80%;
+	box-shadow: -1px 0px 20px 0px black;
+}
+/* Style the header end */
+
+
+/*-----sticky_navigation_bar----*/
+#navbar {
+  overflow: hidden;
+  background-color: #1E90FF;
+}
+#navbar a {
+  float: right;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 7px 12px;
+  text-decoration: none;
+  font-size: 22px;
+}
+#navbar a:hover {
+  background-color: #87CEFA;
+  color: black;
+}
+#navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+#navbar img {
+	float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 22px;
+	padding: 0px;
+}
+
+.content {
+  padding: 18px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 50px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #6495ED;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+

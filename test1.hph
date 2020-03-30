@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<?php include 'links/link.php';?>
+	<link rel="stylesheet" type="text/css" href="st.css">
+
+
+</head>
+<body>
+
+
+<!-- navbar -->
+<ul id="navbar">
+  <img src="image/ahindi.jpg" alt="A HINDI GURU" style="width:90px;">
+  <a href="signin.php">Log in</a>
+  <a href="index.php">Home</a>
+</ul>
+
+
+
+<div class="container">
+
+<br><h1 class="text-center card-header"> A HINDI GURU'S ONLINE TEST </h1>	<br>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<footer>
+  <p>Copyright © 2020 A HINDI GURU | Powered by A HINDI GURU</p>
+</footer>
+
+
+</body>
+</html>
